@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le site de Yong Vic</title>
+    <title>Page HTML</title>
     <link rel="shortcut icon" href="victor.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="victor.jpg" alt="La photo de victor"/>
-    <p>Oui, c'est le boss</p>
+    <header>
+        <img src="victor.jpg" alt="Victor's picture" id="photo"/>
+        <nav>
+            <a href="#me">About me</a>
+            <a href="#call">Call me</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="me">
+            <h1>SOKPA Edo Yawo</h1>
+            <p>Software developer</p>
+        </section>
+
+        <section id="call">
+            <h1>You can call me</h1>
+            <div>
+                <p>My phone number : <a href="number:+22891480288">91 48 02 88</a></p>
+                <p>My other phone number : <a href="number:+22898832644">98 83 26 44</a></p>
+            </div>
+            <h2>Note: Reservé aux filles uniquement</h2>
+        </section>
+
+        <section id="gallery">
+            <img src="image1.jpg" alt="Ma photo 1"/>
+            <img src="image2.jpg" alt="Ma photo 2"/>
+            <img src="image3.jpg" alt="Ma photo 3"/>
+        </section>
+    </main>
 </body>
 </html>
